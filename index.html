@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detask</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a4aa2e089c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer type="text/javascript" src="./src/index.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="display-2">Detask</h1>
+         </header>
+         <div class="main">
+             <div class="icon-div">
+                <i id="icon"></i>    
+             </div>
+             <h3 class="center"></h3>
+             <p class="center-notes"></p>
+         </div>
+         <aside class="aside aside1">
+             <h2>Current Projects</h2>
+             <ul class="house-list"></ul>
+         </aside>
+         <aside class="aside aside2">
+             <div class="create-project">
+                <form id="create-form" action="">
+                    <h2 id="createH2">Add New Project</h2>
+                    <label class="form-label" for="title">Title:</label>
+                    <input class="form-control" type="text" id="title" name="title"><br>
+                    <label class="form-label" for="area">Area:</label>
+                    <input class="form-control" type="text" id="area" name="area"><br>
+                    <label class="form-label" for="notes">Notes:</label>
+                    <textarea class="form-control" type="text" id="notes" name="notes" rows="5" cols="20"></textarea><br><br>
+                    <input type="submit" value="Create Project">
+                  </form>
+             </div>
+             <br>
+             <hr>
+             <div class="update-project">
+                <form id="update-form" action="">
+                    <h2>Edit Project</h2>
+                    <label class="form-label" for="title">Title:</label>
+                    <input class="form-control" type="text" id="title" name="title"><br>
+                    <label class="form-label" for="area">Area:</label>
+                    <input class="form-control" type="text" id="area" name="area"><br>
+                    <label class="form-label" for="notes">Notes:</label>
+                    <textarea class="form-control" type="text" id="notes" name="notes" rows="5" cols="20"></textarea><br><br>
+                    <input class="form-control" type="submit" value="Update Project"><br><br>
+                    <button class="delete-button" type="button">Delete</button>
+                  </form>
+             </div>
+         </aside>
+         <footer class="footer">
+             <h2>Organize, update and complete home improvement projects faster with Detask!</h2>
+         </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- <label for="area">Area:</label>
+<select id="area" name="area">
+  <option value="Kitchen">Kitchen</option>
+  <option value="Living Room">Living Room</option>
+  <option value="Outside">Outside</option>
+  <option value="Bathroom">Bathroom</option>
+  <option value="Other">Other</option>
+</select> -->
