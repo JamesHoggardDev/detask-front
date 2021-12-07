@@ -1,3 +1,3 @@
 # detask-front
 
-Detask helps users make, edit, and view individual house projects and lists
+Detask helps users make, edit, and view house project lists.
